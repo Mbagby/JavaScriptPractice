@@ -35,3 +35,11 @@ for(var x=0;x<size; x++){
 	grid = grid + "\n";
 }
 console.log(grid);
+
+//Bottles of Beer
+var bottles = 0;
+for(var i=99; i>0; i--){
+	bottles = i;
+	console.log( bottles + " Bottles of beer on the wall " + bottles + " bottles of beer. You take one down, pass it around " +(bottles-1)+ " Bottles of beer on the wall.");
+};
+
